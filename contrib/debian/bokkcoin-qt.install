@@ -1,0 +1,6 @@
+usr/local/bin/bokkcoin-qt usr/bin
+share/pixmaps/bokkcoin32.xpm usr/share/pixmaps
+share/pixmaps/bokkcoin16.xpm usr/share/pixmaps
+share/pixmaps/bokkcoin128.png usr/share/pixmaps
+debian/bokkcoin-qt.desktop usr/share/applications
+debian/bokkcoin-qt.protocol usr/share/kde4/services/
