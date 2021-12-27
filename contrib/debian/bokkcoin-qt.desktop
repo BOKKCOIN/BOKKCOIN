@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=BOKKCOIN INC.
+Comment=Connect to the Bokkcoin P2P Network
+Comment[de]=Verbinde mit dem Bokkcoin peer-to-peer Netzwerk
+Comment[fr]=Bokkcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Bokkcoin, eşten eşe kriptografik sanal para birimi
+Exec=bokkcoin-qt %u
+Terminal=false
+Type=Application
+Icon=bokkcoin128
+MimeType=x-scheme-handler/bokkcoin;
+Categories=Office;Finance;
