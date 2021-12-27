@@ -1,0 +1,33 @@
+# /etc/conf.d/bokkcoind: config file for /etc/init.d/bokkcoind
+
+# Config file location
+#BOKKCOIND_CONFIGFILE="/etc/bokkcoin/bokkcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BOKKCOIND_USER)
+#BOKKCOIND_PIDDIR="/var/run/bokkcoind"
+
+# What filename to give the pidfile
+#BOKKCOIND_PIDFILE="${BOKKCOIND_PIDDIR}/bokkcoind.pid"
+
+# Where to write bokkcoind data (be mindful that the blockchain is large)
+#BOKKCOIND_DATADIR="/var/lib/bokkcoind"
+
+# User and group to own bokkcoind process
+#BOKKCOIND_USER="bokkcoin"
+#BOKKCOIND_GROUP="bokkcoin"
+
+# Path to bokkcoind executable
+#BOKKCOIND_BIN="/usr/bin/bokkcoind"
+
+# Nice value to run bokkcoind under
+#BOKKCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BOKKCOIND_OPTS="-disablewallet"
+
+# The timeout in seconds OpenRC will wait for bokkcoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BOKKCOIND_SIGTERM_TIMEOUT=60
